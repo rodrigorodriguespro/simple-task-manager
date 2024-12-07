@@ -5,6 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
+import ProjectManagementIcon from '@mui/icons-material/Assignment';
 //import MenuIcon from '@mui/icons-material/Menu';
  
 function Header() {
@@ -24,6 +25,7 @@ function Header() {
               */}
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+              <ProjectManagementIcon sx={{ mr: 1 }} />
               Gerenciamento de Projetos
             </Typography>
           </Toolbar>

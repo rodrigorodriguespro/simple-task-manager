@@ -144,7 +144,7 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
             </Grid>
             <Grid container spacing={2} pl={2} mt={2}>
               <Grid item xs={1}>
-                <Button size="small" variant="contained" onClick={handleSalvar}>Salvar</Button>
+                <Button mr={2} size="small" variant="contained" onClick={handleSalvar}>Salvar</Button>
               </Grid>  
               <Grid item xs={1}>  
                 <Button size="small" variant="outlined" onClick={handleClose}>Cancelar</Button>  
@@ -162,7 +162,7 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: '60%',
+  width: '40%',
   bgcolor: 'background.paper',
   p: 4,
 };
